@@ -3,10 +3,11 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-336791?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat&logo=nodedotjs)](https://nodejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Solución integral para la centralización, organización y socialización de eventos, conectando a organizadores y asistentes en un entorno digital seguro y escalable.**
 
-🔗 **[Ver Demo Frontend (Estática)](https://julio-milan.github.io/MANTRA-ESTATICO/)** |  **[Ver Documentación](#-documentación)**
+🔗 **[Ver Demo Frontend (Estática)](https://julio-milan.github.io/MANTRA-ESTATICO/)** | 📂 **[Ver Documentación](#-documentación)**
 
 ---
 
@@ -16,7 +17,9 @@ MANTRA nace de la necesidad de resolver la fragmentación en la gestión de even
 
 Esta solución unifica ambos mundos en una sola plataforma, permitiendo que la experiencia del usuario fluya antes, durante y después del evento. A diferencia de un CRUD básico, MANTRA incorpora una capa social (comunidades, publicaciones y chat) y un motor de base de datos robusto que garantiza la integridad de los datos mediante roles, restricciones y validaciones de negocio estrictas.
 
-##  Funcionalidades Principales
+---
+
+## ✨ Funcionalidades Principales
 
 -  **Gestión de Roles:** Flujo diferenciado y seguro para *Organizadores* (creación, estadísticas, reputación) y *Participantes* (descubrimiento, registro, reseñas).
 -  **Ciclo de Vida del Evento:** Creación, edición, clasificación por categorías y monitoreo de asistencia en tiempo real.
@@ -41,59 +44,49 @@ Esta solución unifica ambos mundos en una sola plataforma, permitiendo que la e
 
 El repositorio ha sido estructurado para separar las responsabilidades del cliente y el servidor, facilitando el mantenimiento y la escalabilidad:
 
-```text
-mantra/
-── backend/
-│   ├── index.js            # Punto de entrada del servidor (Node/Express)
-│   ├── package.json        # Dependencias y scripts del backend
-│   └── .gitignore          # Reglas para ignorar node_modules y .env
-├── frontend/
-│   ├── index.html          # Página principal
-│   ├── dashboard-organizador.html # Panel de control
-│   ├── feed-eventos.html   # Listado de eventos
-│   ├── comunidad.html      # Muro social
-│   ├── chat.html           # Mensajería en tiempo real
-│   └── ...                 # Resto de vistas HTML
-├── docs/
-│   └── Entrevista_MANTRA.pdf # Documento de requerimientos
-├── capturas/               # Evidencias visuales de la UI
-├── uploads/                # Directorio para archivos subidos
-└── README.md
-```
+    mantra/
+    ├── backend/
+    │   ├── index.js            # Punto de entrada del servidor (Node/Express)
+    │   ├── package.json        # Dependencias y scripts del backend
+    │   └── .gitignore          # Reglas para ignorar node_modules y .env
+    ├── frontend/
+    │   ├── index.html          # Página principal
+    │   ├── dashboard-organizador.html # Panel de control
+    │   ├── feed-eventos.html   # Listado de eventos
+    │   ├── comunidad.html      # Muro social
+    │   ├── chat.html           # Mensajería en tiempo real
+    │   └── ...                 # Resto de vistas HTML
+    ├── docs/
+    │   └── Entrevista_MANTRA.pdf # Documento de requerimientos
+    ├── capturas/               # Evidencias visuales de la UI
+    ├── uploads/                # Directorio para archivos subidos
+    └── README.md
 
 ---
 
-## ️ Cómo ejecutar el proyecto localmente
+##  Cómo ejecutar el proyecto localmente
 
 Para levantar el entorno de desarrollo en tu máquina, sigue estos pasos:
 
 1. Clona el repositorio:
-```bash
-git clone https://github.com/JULIO-MILAN/mantra.git
-cd mantra
-```
+    git clone https://github.com/JULIO-MILAN/mantra.git
+    cd mantra
 
 2. Configura el Backend:
-```bash
-cd backend
-npm install
-```
+    cd backend
+    npm install
 
 3. Variables de entorno:
-- Crea un archivo `.env` dentro de la carpeta `backend/`.
-- Añade tus credenciales de PostgreSQL:
-```env
-PORT=3000
-DATABASE_URL=postgresql://tu_usuario:tu_password@localhost:5432/mantra_db
-```
+   - Crea un archivo `.env` dentro de la carpeta `backend/`.
+   - Añade tus credenciales de PostgreSQL:
+    PORT=3000
+    DATABASE_URL=postgresql://tu_usuario:tu_password@localhost:5432/mantra_db
 
 4. Inicia el servidor:
-```bash
-node index.js
-```
+    node index.js
 
 5. Ejecuta el Frontend:
-- Abre el archivo `frontend/index.html` en tu navegador, o utiliza una extensión como "Live Server" en VS Code para servir los archivos estáticos.
+   - Abre el archivo `frontend/index.html` directamente en tu navegador, o utiliza una extensión como "Live Server" en VS Code para servir los archivos estáticos.
 
 ---
 
@@ -103,7 +96,7 @@ node index.js
 El backend de este proyecto fue desplegado originalmente en Render (capa gratuita). Debido a las limitaciones de inactividad de este servicio, actualmente se mantiene activa la **versión estática del frontend** para fines de demostración visual de la interfaz y la experiencia de usuario (UI/UX).
 
 -  **[Ver Versión Estática (Frontend Demo)](https://julio-milan.github.io/MANTRA-ESTATICO/)**
--  **Prueba local completa:** Sigue los pasos de la sección [️ Cómo ejecutar el proyecto localmente](#-cómo-ejecutar-el-proyecto-localmente) para interactuar con la base de datos y la API en tiempo real.
+-  **Prueba local completa:** Sigue los pasos de la sección [⚙️ Cómo ejecutar el proyecto localmente](#-cómo-ejecutar-el-proyecto-localmente) para interactuar con la base de datos y la API en tiempo real.
 
 ---
 
@@ -131,14 +124,14 @@ Como proyecto en evolución, tengo identificadas las siguientes áreas de mejora
 
 ---
 
-##  Documentación
+## 📊 Documentación
 
 - 📑 [Ver Documento de Entrevista y Requerimientos](./docs/Entrevista_MANTRA.pdf)
 - 🖼️ [Ver Capturas de Pantalla](./capturas/)
 
 ---
 
-##  Autor
+## 👨💻 Autor
 
 - **Julio Milan** - [GitHub](https://github.com/JULIO-MILAN) | 
 
