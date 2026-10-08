@@ -19,7 +19,7 @@ Esta solución unifica ambos mundos en una sola plataforma, permitiendo que la e
 
 ---
 
-## ✨ Funcionalidades Principales
+##  Funcionalidades Principales
 
 -  **Gestión de Roles:** Flujo diferenciado y seguro para *Organizadores* (creación, estadísticas, reputación) y *Participantes* (descubrimiento, registro, reseñas).
 -  **Ciclo de Vida del Evento:** Creación, edición, clasificación por categorías y monitoreo de asistencia en tiempo real.
@@ -124,14 +124,83 @@ Como proyecto en evolución, tengo identificadas las siguientes áreas de mejora
 
 ---
 
-## 📊 Documentación
+## Documentación
 
 - 📑 [Ver Documento de Entrevista y Requerimientos](./docs/Entrevista_MANTRA.pdf)
-- 🖼️ [Ver Capturas de Pantalla](./capturas/)
+
+##  Capturas de Pantalla
+
+<details>
+<summary><b>🖼️ Click para ver galería completa</b></summary>
+<br>
+
+<table>
+<tr>
+<td align="center">
+<b>Landing Page</b><br><br>
+<img src="capturas/landing.png" width="400">
+</td>
+
+<td align="center">
+<b>Feed de Eventos</b><br><br>
+<img src="capturas/feed-eventos.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Dashboard Organizador</b><br><br>
+<img src="capturas/dashborad-organizador.png" width="400">
+</td>
+
+<td align="center">
+<b>Comunidad</b><br><br>
+<img src="capturas/comunidad.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Chat en Tiempo Real</b><br><br>
+<img src="capturas/chat.png" width="400">
+</td>
+
+<td align="center">
+<b>Perfil de Usuario</b><br><br>
+<img src="capturas/perfil.png" width="400">
+</td>
+</tr>
+</table>
+
+</details>
+
 
 ---
+## Diagramas ER Y EEX
 
-## 👨💻 Autor
+<details>
+<summary><b>🖼️ Click para ver los diagramas</b></summary>
+<br>
+
+<table>
+<tr>
+<td align="center">
+<b>EER</b><br><br>
+<img src="https://github.com/user-attachments/assets/b353fb68-700c-46cc-b2f5-3784f5105ce4" width="400">
+</td>
+
+<td align="center">
+<b>ER</b><br><br>
+<img src="https://github.com/user-attachments/assets/0f419152-cdcc-4451-9c05-bc0ddb101c24" width="400">
+</td>
+</tr>
+</tr>
+</table>
+
+</details>
+---
+
+## Autor
 
 - **Julio Milan** - [GitHub](https://github.com/JULIO-MILAN) | 
 
