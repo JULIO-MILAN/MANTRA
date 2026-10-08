@@ -1,4 +1,4 @@
-# 🎉 MANTRA - Plataforma de Gestión de Eventos y Comunidad
+#  MANTRA - Plataforma de Gestión de Eventos y Comunidad
 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-336791?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat&logo=nodedotjs)](https://nodejs.org/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Sobre el Proyecto
+##  Sobre el Proyecto
 
 MANTRA nace de la necesidad de resolver la fragmentación en la gestión de eventos. Las plataformas tradicionales suelen separar la organización del evento de la interacción entre asistentes. 
 
@@ -19,14 +19,14 @@ Esta solución unifica ambos mundos en una sola plataforma, permitiendo que la e
 
 ##  Funcionalidades Principales
 
-- 👤 **Gestión de Roles:** Flujo diferenciado y seguro para *Organizadores* (creación, estadísticas, reputación) y *Participantes* (descubrimiento, registro, reseñas).
-- 🎉 **Ciclo de Vida del Evento:** Creación, edición, clasificación por categorías y monitoreo de asistencia en tiempo real.
-- 🤝 **Capa Social:** Muro de publicaciones, intercambio de experiencias y mensajería privada entre usuarios.
-- 🔒 **Seguridad a Nivel de Datos:** Implementación de control de acceso (DCL), restricciones de dominio (CHECK, UNIQUE) e integridad referencial (CASCADE/RESTRICT) directamente en PostgreSQL.
+-  **Gestión de Roles:** Flujo diferenciado y seguro para *Organizadores* (creación, estadísticas, reputación) y *Participantes* (descubrimiento, registro, reseñas).
+-  **Ciclo de Vida del Evento:** Creación, edición, clasificación por categorías y monitoreo de asistencia en tiempo real.
+-  **Capa Social:** Muro de publicaciones, intercambio de experiencias y mensajería privada entre usuarios.
+-  **Seguridad a Nivel de Datos:** Implementación de control de acceso (DCL), restricciones de dominio (CHECK, UNIQUE) e integridad referencial (CASCADE/RESTRICT) directamente en PostgreSQL.
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Área | Tecnologías |
 | :--- | :--- |
@@ -38,7 +38,7 @@ Esta solución unifica ambos mundos en una sola plataforma, permitiendo que la e
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El repositorio ha sido estructurado para separar las responsabilidades del cliente y el servidor, facilitando el mantenimiento y la escalabilidad:
 
@@ -98,17 +98,17 @@ node index.js
 
 ---
 
-## 🚀 Demo y Despliegue
+##  Demo y Despliegue
 
-⚠️ **Nota sobre el entorno de demostración:**  
+ **Nota sobre el entorno de demostración:**  
 El backend de este proyecto fue desplegado originalmente en Render (capa gratuita). Debido a las limitaciones de inactividad de este servicio, actualmente se mantiene activa la **versión estática del frontend** para fines de demostración visual de la interfaz y la experiencia de usuario (UI/UX).
 
-- 🖥️ **[Ver Versión Estática (Frontend Demo)](https://julio-milan.github.io/MANTRA-ESTATICO/)**
-- 💻 **Prueba local completa:** Sigue los pasos de la sección [️ Cómo ejecutar el proyecto localmente](#-cómo-ejecutar-el-proyecto-localmente) para interactuar con la base de datos y la API en tiempo real.
+-  **[Ver Versión Estática (Frontend Demo)](https://julio-milan.github.io/MANTRA-ESTATICO/)**
+-  **Prueba local completa:** Sigue los pasos de la sección [️ Cómo ejecutar el proyecto localmente](#-cómo-ejecutar-el-proyecto-localmente) para interactuar con la base de datos y la API en tiempo real.
 
 ---
 
-## 🧠 Retos de Ingeniería y Aprendizajes
+##  Retos de Ingeniería y Aprendizajes
 
 - **Manejo de Integridad Referencial Compleja:** 
   - *Reto:* Gestionar las relaciones N:M entre usuarios, eventos y categorías, asegurando que la eliminación de un evento no dejara datos huérfanos.
@@ -121,7 +121,7 @@ El backend de este proyecto fue desplegado originalmente en Render (capa gratuit
 
 ---
 
-## 🚀 Próximos Pasos y Mejoras Futuras
+##  Próximos Pasos y Mejoras Futuras
 
 Como proyecto en evolución, tengo identificadas las siguientes áreas de mejora para llevarlo a un entorno de producción real:
 
@@ -132,14 +132,14 @@ Como proyecto en evolución, tengo identificadas las siguientes áreas de mejora
 
 ---
 
-## 📊 Documentación
+##  Documentación
 
 - 📑 [Ver Documento de Entrevista y Requerimientos](./docs/Entrevista_MANTRA.pdf)
 - 🖼️ [Ver Capturas de Pantalla](./capturas/)
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 - **Julio Milan** - [GitHub](https://github.com/JULIO-MILAN) | 
 
