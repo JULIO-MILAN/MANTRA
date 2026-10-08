@@ -3,7 +3,6 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-336791?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat&logo=nodedotjs)](https://nodejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Solución integral para la centralización, organización y socialización de eventos, conectando a organizadores y asistentes en un entorno digital seguro y escalable.**
 
